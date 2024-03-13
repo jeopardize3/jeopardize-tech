@@ -1,0 +1,43 @@
+*{
+        margin:0;
+}
+
+.TestClass {
+	color: Black;
+	background-color: White;
+	text-align: center;
+}
+marquee{
+        background-color:red;
+        height:25px;
+        padding:2px;
+        font-size:20px;
+}
+.signup{
+        border:5px solid #ccc;
+        margin:1px auto;
+        border-radius:15px;
+        background-color: #f1f1f1;
+        align-items:center;
+        width:50%;
+        height:540px;
+
+}
+h1{
+        background-color:aqua;
+        margin:10px;
+        border-radius:15px;
+        width:50%;
+}
+input{
+        margin:10px;
+}
+label{
+         display:block;
+}
+.gender{
+        display:inline-block;
+}
+body{
+        background-color:skyblue;
+}

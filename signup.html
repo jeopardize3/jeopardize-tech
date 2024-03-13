@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>signup</title>
+</head>
+<link rel="stylesheet" href="Dcss.css">
+<marquee><B>✋👋WELCOME TO JEOPARDIZE TECH REGISTRATION PAGE✋👋</B></marquee>
+<body>
+<form id="loginForm">
+<div class="signup"><center>
+<h1>SIGN UP</h1>
+<label for="first name">FIRST NAME:
+<input type="text" id="first name" placeholder="Enter first name..." name="first name" required>
+</label> 
+
+<label for="second name">SECOND NAME:
+<input type="text" id="second name" placeholder="Enter second name..." name="second name" required>
+</label> 
+
+<label for="surname">SURNAME:
+<input type="text" id="surname" placeholder="Enter surname..." name="surname" required>
+</label> 
+<label for="email">EMAIL:
+<input type="email" id="email" placeholder="Enter your email..." name="email" required>
+</label> 
+<label for="phone">TELL NO:
+<input type="number" id="number" placeholder="Enter phone no..." name="phone" required>
+</label>
+
+<label for="dbirth">DATE OF BIRTH:
+<input type="DATE" id="dbirth" name="dbirth" required>
+</label> 
+
+<div class="gender">
+<label for="male">MALE:
+<input type="radio" id="male" name="TITLE">
+</label>
+ </div>
+<div class="gender">
+<label for="female">FEMALE:
+<input type="radio" id="female" name="TITLE" >
+</label>
+</div>
+ <label for="username">Username:
+    <input type="text" id="username" name="username" required>
+</label>
+  <label for="password">Password:
+  <input type="password" id="password" placeholder="Enter password" name="password" required>
+</label>
+
+  <label for="confirm_password">Confirm Password:
+  <input type="password" id="confirm_password" placeholder="Confirm password" name="confirm_password" required oninput="checkPassword(this)">
+<span id="password_message"></span>
+</label>
+<input type="checkbox" onclick="myFuction()">Show Password
+  <input type="submit" value="SIGNUP">
+</center>
+</div>
+</form>
+<script src="java.js"></script>
+</body>
+</html>

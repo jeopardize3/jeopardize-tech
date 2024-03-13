@@ -1,0 +1,244 @@
+*{
+        margin:0;
+        padding:;
+        font-family:sans-serif;
+        box-sizing:border-box;
+}
+marquee{
+        color:red;
+        background-color:violet;
+        font-size:25px;
+}
+.image-container {
+    display: flex;
+    align-items: center;
+     z-index: 1;
+     margin-left:200px;
+  }
+
+  .image-container img {
+    max-width: 50%; /* Adjust as needed */
+    height: 200px;
+    width:200px;
+    margin-right: 0px; /* Adjust spacing between image and description */
+  }
+
+  .description {
+    max-width: 50%; /* Adjust as needed */
+    font-size:20px;
+     width:40%;
+    height: 110px;
+    align-items: center;
+    color:#ff0;
+    padding:blue;
+    
+    
+    }
+details{
+        color:aqua;
+        font-size:23px;
+}
+
+    
+#video-backound {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1000; /* To position it behind other elements */
+    }
+
+    /* Optional: Add styles to other elements on top of the video */
+    .content {
+        position: relative;
+        z-index: 1; /* Ensure content appears on top of the video */
+        color: red;
+        text-align: center;
+        padding: 5px;
+        background-color:aqua;
+        width:70%;
+        border-radius:15px;
+    }
+.container {
+        border:5px solid #ccc;
+        padding:20px;
+        max-width:500px;
+        margin:1px auto;
+        border-radius:15px;
+        background-color: #f1f1f1;
+        padding: 20px;
+        margin-top:15px;
+}
+.in{
+        color:black;
+        margin-bottom:15px;
+        font-size:20px;
+}
+.lab{
+        display:block;
+}
+footer{
+        color:#ff0000;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+}
+p{
+        color:#fff000;
+}
+a{
+        color:white;
+         background-color:#007bff;
+}
+a:hover{
+        background-color:blue;
+         background-color:#0056b3;
+}
+
+button:hover{
+        background-color:blue;
+}
+button {
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  width: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  background-color:#007bff;
+  padding:10px 20px;
+  color:#ccc;
+  border-radius:10px;
+  box-shadow: 0 9px #999;
+  cursor:pointer;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+button:active {
+  background-color:#007bff ;
+  box-shadow: 0 5px #007bff;
+  transform: translateY(4px);
+}
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-whatsapp {
+  background: green;
+  color: white;
+}
+.fa-youtube{
+  background: #ff0000;
+  color: white;
+}
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+body{
+        background-color:grey;
+         background-attachment:fixed;
+          background-position:center;
+           background-size:cover;
+           justify-content:center;
+}
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+.ap{
+        margin-bottom:120px;
+        margin-top:20px;
+}
+
+#myDIV {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: aqua;
+  margin-top: 2px;
+}
