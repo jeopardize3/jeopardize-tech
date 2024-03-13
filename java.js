@@ -40,9 +40,9 @@ function myFution() {
     var password = document.getElementById("password").value;
     
     // Check if the username and password match some predefined values
-    if (username === "Jeopardize " && password === "1234") {
+    if (username === "Jeopardize" && password === "1234") {
       alert("Login successful!");
-      window.location.href = "login.html"; // Redirect to another page
+      window.location.href = "index.html"; // Redirect to another page
     } else {
       alert("Invalid username or password. Please try again.");
     }
